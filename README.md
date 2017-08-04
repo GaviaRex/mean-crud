@@ -1,16 +1,16 @@
 # mean-crud
 A MEAN -stack project with CRUD capabilities
 
-**THE SETUP**
+**- THE SETUP -**
 
-*DOWNLOAD*
+**DOWNLOAD**
 
 -Node.js & npm
 
 -MongoDB
 
 
-*MongoDB*
+**MongoDB**
 
 My MongoDB is located in C:\ 
 
