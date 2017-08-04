@@ -14,7 +14,7 @@ A MEAN -stack project with CRUD capabilities
 
 My MongoDB is located in C:\ 
 
-  *(e.g. C:\mongo\bin\mongo.exe)
+  *(e.g. C:\mongo\bin\mongo.exe)*
 
 My MongoDB's data goes into C:\data\db
 
@@ -30,7 +30,7 @@ allowing you to type MongoDB -commands.
 
 -Now open your 3rd cmd prompt and navigate into the "Angular_projekti" -folder and install the dependencies in listed in the "package.json" -file. (body-parser, mongojs and express)
 
-  *(e.g. npm install express --save)
+  *(e.g. npm install express --save)*
 
 In "Angular_projekti" -folder use the command "node server", to run the "server.js" -file.
 The app should be running in port 3000 so open a web-browser (used in FireFox and Chrome)
