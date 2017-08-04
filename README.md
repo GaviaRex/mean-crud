@@ -24,8 +24,9 @@ My MongoDB's data goes into C:\data\db
 -Open a new cmd prompt and go into the "bin" -folder. This time type "mongo". It should give you a ">" -symbol,
 allowing you to type MongoDB -commands.
 
--Create a database named myProperty ( use myProperty )
-and a collection named myThings ( db.createCollection("myThings") ).
+-Create a database named myProperty like this: >use myProperty
+
+-Create a collection named myThings like this: >db.createCollection("myThings")
 
 -Now open your 3rd cmd prompt and navigate into the "Angular_projekti" -folder and install the dependencies in listed in the "package.json" -file. (body-parser, mongojs and express)
 
