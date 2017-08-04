@@ -11,7 +11,7 @@ app.controller("MainController", ['$scope','$http', function($scope, $http){
 		console.log("Refresh failed: "+error);	
 	});
 
-	};
+	}
 
 	refresh();
 
@@ -24,7 +24,7 @@ app.controller("MainController", ['$scope','$http', function($scope, $http){
 		},function(error){
 			console.log("Add failed: "+error);
 		});
-	};
+	}
 
 	$scope.removeItem = function(id){
   	$http.delete('/mythings/'+id).then(function (success){
@@ -33,7 +33,7 @@ app.controller("MainController", ['$scope','$http', function($scope, $http){
 	    },function (error){
 	    	console.log("Remove failed: "+error);
 	 	 });
- 	};
+ 	}
 
  	$scope.editItem = function(id){
    	 $http.get('/mythings/'+id).then(function (success){
@@ -44,7 +44,7 @@ app.controller("MainController", ['$scope','$http', function($scope, $http){
       	 console.log("Edit failed: "+error);
 
     	});
- 	};
+ 	}
 
   	$scope.updateItem = function(){
   		console.log($scope.mything._id);
@@ -55,18 +55,18 @@ app.controller("MainController", ['$scope','$http', function($scope, $http){
        },function (error){
        		console.log("Update failed: "+error);
       });
-  	};
+  	}
 
   	$scope.clear = function(){
     $scope.mything = {};
-  	};
+  	}
 
 
 //After you click a button, the view scrolls up
   	$scope.topScroll = function(){
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-	;}
+	}
 
 
 }]);
